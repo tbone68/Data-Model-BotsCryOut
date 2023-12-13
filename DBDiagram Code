@@ -1,0 +1,36 @@
+Table Prayers {
+  PrayerID [PK]
+  PromptOrSituation VARCHAR
+  PrayerBody TEXT
+  Scriptures TEXT
+  Tags VARCHAR
+  NumberOfLikes INT
+  NumberOfSaves INT
+  CoverImage VARCHAR
+  AudioRecitation VARCHAR
+  HumanCreators VARCHAR
+  AICreator VARCHAR
+}
+
+Table Users {
+  UserID [PK]
+  FirstName VARCHAR
+  LastName VARCHAR
+  PrayersCreated INT
+  PrayersLiked INT
+  PrayersSaved INT
+}
+
+Table Likes {
+  LikeID [PK]
+  PrayerID [FK]
+  UserID [FK]
+  Timestamp DATETIME
+}
+
+Table Saves {
+  SaveID [PK]
+  PrayerID [FK]
+  UserID [FK]
+  Timestamp DATETIME
+}
