@@ -7,7 +7,7 @@ Table Prayers {
   NumberOfLikes INT
   NumberOfSaves INT
   CoverImage VARCHAR
-  AudioRecitation VARCHAR
+  AudioFile VARCHAR
   HumanCreators VARCHAR
   AICreator VARCHAR
 }
