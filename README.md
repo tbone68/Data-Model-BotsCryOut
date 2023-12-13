@@ -8,7 +8,7 @@ Included in this repository are the following:
   - SQL query for creating the structure of a database
   - SQL query for inserting data into the database
 
-**ERDiagram***
+**ERDiagram**
 
 When looking at the ERDiagram.pdf file you will see four tables presented:
   - Prayers
