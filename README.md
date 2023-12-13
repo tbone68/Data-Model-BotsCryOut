@@ -8,6 +8,8 @@ Included in this repository are the following:
   - SQL query for creating the structure of a database
   - SQL query for inserting data into the database
 
+
+
 **ERDiagram**
 
 When looking at the ERDiagram.pdf file you will see four tables presented:
@@ -18,9 +20,13 @@ When looking at the ERDiagram.pdf file you will see four tables presented:
 
 Within these tables are important characteristics that are important in the creation of a normalized database.
 
+
+
 **ERDiagram Code**
 
 When looking at the DBDiagram Code file you will see the code for creating an ER Diagram in the DBDiagram tool.
+
+
 
 **Structure Code**
 
@@ -34,6 +40,8 @@ Creating the Database:
   5. Execute the script.
   6. Click the refresh button on the left pane.
   7. You will now see a database named botscryout.
+
+
 
 **Data Code**
 
